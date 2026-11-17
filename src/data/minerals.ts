@@ -18,7 +18,7 @@ export const minerals: Mineral[] = [
     shortDescription:
       "Mineral natural de estructura porosa utilizado en diferentes aplicaciones agrícolas e industriales.",
     description:
-    "Las zeolitas son minerales de estructura porosa utilizados en diversas aplicaciones debido a sus propiedades de intercambio iónico y absorción. Se emplean principalmente en agricultura, acondicionamiento de suelos y procesos de filtración.",
+    "Las zeolitas son minerales de estructura porosa utilizados en diversas aplicaciones debido a sus propiedades de intercambio iónico y absorción. Se emplean principalmente en agricultura, acondicionamiento de suelos y procesos de filtración.",technicalSheet: "/pdf/zeolita.pdf",
     presentation: "Material en breña o molido · Malla 60-80",
     uses: [
       "Agricultura",

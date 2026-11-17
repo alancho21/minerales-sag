@@ -49,7 +49,7 @@ export default function IndustriesSection() {
 
             <Link
               href="/industrias"
-              className="mt-8 inline-flex rounded-full bg-[#5a2f1f] px-7 py-3 font-medium text-white hover:bg-[#442216]"
+              className="mt-8 inline-flex rounded-full bg-[#5a2f1f] px-7 py-3 font-medium !text-white transition hover:bg-[#442216]"
             >
               Conocer aplicaciones
             </Link>

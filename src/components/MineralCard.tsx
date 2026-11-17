@@ -9,12 +9,12 @@ type MineralCardProps = {
 export default function MineralCard({ mineral }: MineralCardProps) {
   return (
     <article className="group overflow-hidden rounded-2xl bg-white">
-      <div className="relative h-72 overflow-hidden">
+      <div className="relative h-56 overflow-hidden sm:h-64 md:h-72">
         <Image
           src={mineral.image}
           alt={mineral.name}
           fill
-          className="object-cover transition duration-500 group-hover:scale-105"
+          className="object-cover object-center transition duration-500 group-hover:scale-105"
         />
 
         <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent" />

@@ -62,7 +62,7 @@ export default async function ProductPage({
 
         <section className="bg-[#f4f0ea] py-20">
           <div className="mx-auto grid max-w-7xl gap-14 px-6 lg:grid-cols-2 lg:px-10">
-            <div className="relative min-h-[500px] overflow-hidden rounded-2xl">
+            <div className="relative min-h-[320px] overflow-hidden rounded-2xl sm:min-h-[420px] lg:min-h-[500px]">
               <Image
                 src={mineral.image}
                 alt={mineral.name}
@@ -112,19 +112,19 @@ export default async function ProductPage({
                 </div>
               </div>
 
-              <div className="mt-10 flex flex-wrap gap-4">
+              <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
                 <Link
                   href={`/contacto?producto=${mineral.slug}`}
-                  className="rounded-full bg-[#5a2f1f] px-7 py-3 font-medium text-white hover:bg-[#442216]"
+                  className="rounded-full bg-[#5a2f1f] px-7 py-3 text-center font-medium text-white hover:bg-[#442216]"
                 >
-                  Solicitar cotización
+                  Cotizar este producto
                 </Link>
 
                 {mineral.technicalSheet && (
                   <Link
                     href={mineral.technicalSheet}
                     target="_blank"
-                    className="rounded-full border border-[#5a2f1f] px-7 py-3 font-medium text-[#5a2f1f]"
+                    className="rounded-full border border-[#5a2f1f] px-7 py-3 text-center font-medium text-[#5a2f1f]"
                   >
                     Descargar ficha técnica
                   </Link>
@@ -142,7 +142,7 @@ export default async function ProductPage({
               </p>
 
               <h2 className="mt-4 max-w-2xl text-3xl font-semibold text-white md:text-4xl">
-                ¿Necesitas este mineral para tu proceso?
+                ¿Necesitas {mineral.name} para tu proceso?
               </h2>
 
               <p className="mt-5 max-w-2xl leading-7 text-white/70">
@@ -153,9 +153,9 @@ export default async function ProductPage({
 
               <Link
                 href={`/contacto?producto=${mineral.slug}`}
-                className="mt-8 inline-flex rounded-full bg-[#d8b89c] px-7 py-3 font-medium text-[#082238]"
+                className="mt-8 inline-flex rounded-full bg-[#d8b89c] px-7 py-3 font-medium !text-[#082238] transition hover:bg-white"
               >
-                Solicitar información
+                Solicitar cotización
               </Link>
             </div>
           </div>

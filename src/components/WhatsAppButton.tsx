@@ -5,9 +5,15 @@ export default function WhatsAppButton() {
       target="_blank"
       rel="noreferrer"
       aria-label="Contactar por WhatsApp"
-      className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-xl font-semibold text-white shadow-lg transition hover:scale-105"
+      className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition duration-200 hover:scale-105"
     >
-      W
+      <svg
+        viewBox="0 0 32 32"
+        aria-hidden="true"
+        className="h-7 w-7 fill-current"
+      >
+        <path d="M16.04 3C9.42 3 4.04 8.28 4.04 14.78c0 2.6.87 5.01 2.34 6.96L4 29l7.52-2.38a12.1 12.1 0 0 0 4.52.87c6.62 0 12-5.28 12-11.78S22.66 3 16.04 3Zm0 21.98c-1.42 0-2.8-.3-4.06-.88l-.29-.13-4.46 1.41 1.45-4.26-.19-.3a9.58 9.58 0 0 1-1.91-5.74c0-5.12 4.24-9.29 9.46-9.29s9.46 4.17 9.46 9.29-4.24 9.3-9.46 9.3Zm5.18-6.96c-.28-.14-1.67-.81-1.93-.9-.26-.1-.45-.14-.64.14-.19.28-.74.9-.91 1.08-.17.19-.34.21-.62.07-.29-.14-1.2-.43-2.29-1.38-.85-.74-1.42-1.65-1.59-1.93-.17-.28-.02-.43.13-.57.13-.13.28-.34.42-.5.14-.16.19-.28.28-.47.1-.18.05-.35-.02-.49-.07-.14-.64-1.52-.88-2.08-.23-.56-.47-.48-.64-.49h-.55c-.19 0-.5.07-.76.35-.26.28-1 1-1 2.42 0 1.43 1.05 2.81 1.19 3 .14.19 2.06 3.27 5.08 4.45.71.3 1.26.48 1.7.62.71.22 1.36.19 1.87.12.57-.08 1.67-.67 1.91-1.31.24-.65.24-1.2.17-1.32-.07-.12-.26-.19-.55-.33Z" />
+      </svg>
     </a>
   );
 }

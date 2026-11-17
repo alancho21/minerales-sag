@@ -3,42 +3,42 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <section
-      className="relative flex min-h-screen items-center bg-cover bg-center"
+      className="relative flex min-h-[88vh] items-center bg-cover bg-center md:min-h-screen"
       style={{
         backgroundImage: "url('/images/hero/hero-mina.png')",
       }}
     >
-      <div className="absolute inset-0 bg-black/55" />
+      <div className="absolute inset-0 bg-black/60 md:bg-black/55" />
 
-      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/35 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/45 to-black/10" />
 
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pt-32 lg:px-10">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-16 pt-36 lg:px-10">
         <div className="max-w-3xl">
-          <p className="mb-5 text-sm font-medium uppercase tracking-[0.35em] text-[#d8b89c]">
+          <p className="mb-5 text-xs font-medium uppercase tracking-[0.3em] text-[#d8b89c] sm:text-sm">
             Minerales SAG
           </p>
 
-          <h1 className="text-5xl font-semibold leading-tight text-white md:text-7xl">
-            Descubre el potencial de la tierra
+          <h1 className="max-w-3xl text-4xl font-semibold leading-[1.05] text-white sm:text-5xl md:text-7xl">
+            DESCUBRE EL POTENCIAL DE LA TIERRA
           </h1>
 
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-white/85">
+          <p className="mt-6 max-w-2xl text-base leading-7 text-white/80 sm:text-lg sm:leading-8">
             Proveemos minerales procesados para diferentes aplicaciones
-            industriales, disponibles en distintas granulometrías, presentaciones
-            y soluciones bajo cotización.
+            industriales, disponibles en distintas granulometrías,
+            presentaciones y soluciones bajo cotización.
           </p>
 
-          <div className="mt-10 flex flex-wrap gap-4">
+          <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:flex-wrap sm:gap-4">
             <Link
               href="/productos"
-              className="rounded-full bg-[#d8b89c] px-7 py-3 font-medium text-[#082238] hover:bg-[#caa78a]"
+              className="flex justify-center rounded-full bg-[#d8b89c] px-7 py-3 font-medium text-[#082238] hover:bg-[#caa78a]"
             >
               Ver productos
             </Link>
 
-            <Link
+           <Link
               href="/contacto"
-              className="rounded-full border border-white px-7 py-3 font-medium text-white hover:bg-white hover:text-[#082238]"
+              className="flex justify-center rounded-full border border-white bg-white/5 px-7 py-3 font-medium !text-white transition hover:bg-white hover:!text-[#082238]"
             >
               Solicitar cotización
             </Link>
@@ -46,7 +46,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2 text-xs uppercase tracking-[0.3em] text-white/60">
+      <div className="absolute bottom-6 left-1/2 z-10 hidden -translate-x-1/2 text-xs uppercase tracking-[0.3em] text-white/60 sm:block">
         Explorar
       </div>
     </section>

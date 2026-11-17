@@ -24,8 +24,8 @@ export default function ProductsSection() {
 
           <Link
             href="/productos"
-            className="w-fit rounded-full border border-white/70 px-6 py-3 text-sm font-medium text-white hover:bg-white hover:text-[#082238]"
-            >
+            className="w-fit rounded-full border border-[#d8b89c] bg-[#d8b89c] px-6 py-3 text-sm font-medium !text-[#082238] transition hover:bg-white hover:border-white"
+          >
             Ver todos los productos
           </Link>
         </div>
