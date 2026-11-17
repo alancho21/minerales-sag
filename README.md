@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🪨 Minerales SAG - Catálogo Corporativo y Cotizador (Next.js)
 
-## Getting Started
+Plataforma web desarrollada como una solución a medida para la exhibición comercial en el sector de extracción y venta de minerales. Este sistema fue diseñado para presentar el catálogo de productos y facilitar la solicitud de cotizaciones directas.
 
-First, run the development server:
+### 🚀 Características y Componentes Principales
+- **Catálogo Dinámico:** Presentación de productos minerales (bentonita, dolomita, zeolita, óxido de zinc) con información detallada.
+- **Cotizador Integrado:** Formulario de cotización (`QuoteForm`) para que los clientes soliciten presupuestos específicos.
+- **Contacto Directo:** Integración de un botón de WhatsApp (`WhatsAppButton`) para agilizar la comunicación comercial.
+- **Secciones Corporativas:** Páginas dedicadas a la información de la empresa (`AboutSection`) y las industrias a las que sirve (`IndustriesSection`).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🧑‍💻 Desarrollo y Arquitectura (Freelance)
+Este proyecto fue desarrollado como una solución comercial independiente. Mi trabajo abarcó:
+- Desarrollo Frontend utilizando **Next.js** y **React**.
+- Implementación de tipado estático estricto con **TypeScript** (archivos `.tsx`).
+- Creación de componentes modulares y reutilizables para una interfaz de usuario escalable.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🛠️ Stack Tecnológico
+- **Frontend:** Next.js, React.js.
+- **Lenguaje:** TypeScript.
+- **Herramientas:** Git, GitHub.
